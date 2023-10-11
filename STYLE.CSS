@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+import url ('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 
 *{
@@ -10,7 +10,7 @@ import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wgh
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #a17c8e 16.62%, #fcfbfa 86.61%);
+    background:honeydew
 }
 
 .cabecalho {
@@ -21,9 +21,6 @@ body{
     padding: 24px;
 }
 
-.cabecalho-imagem {
-    height: 28px;
-}
 
 .cabecalho-menu {
     display: flex;
@@ -33,14 +30,14 @@ body{
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
-    color: #a17c8e;
+    color:palevioletred;
     font-weight: 400;
     font-size: 18px;
 }
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid #f3eee3;
+    border-top: 0.4px solid rgb(220, 220, 220);
 }
 
 .conteudo-principal {
@@ -60,27 +57,27 @@ body{
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: #FFF2E7;
+    color: palevioletred;
 }
 
 .conteudo-principal-escrito-subtitulo {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    color: #f0e1d5;
+    color: palevioletred;
 }
 
 .conteudo-principal-escrito-botao {
-   background-color: #d1cecc; 
+   background-color:paleturquoise; 
    width: 180px;
    height: 50px;
    border: none;
-   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+   box-shadow: 4px 5px 4px rgb(207, 206, 206);
    border-radius: 20px;
    font-family: 'Sarala', sans-serif;
    font-weight: 400;
    font-size: 24px;
-   color: #2f2325;
+   color: palevioletred;
 }
 
 .conteudo-principal-img{
@@ -89,7 +86,7 @@ body{
 }
 
 .conteudo-principal-escrito-botao:hover{
-    background-color: rgba(236, 214, 196, 0.53);
+    background-color: palevioletred
 }
 
 .conteudo-secundario{
@@ -106,7 +103,7 @@ body{
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 20px;
-    color: #3b3b3a;
+    color: palevioletred;
     margin-bottom: 16px;
 }
 
@@ -114,6 +111,6 @@ body{
     font-family:'Sarala', sans-serif;
     font-weight: 300;
     font-size: 15px;
-    color: #f8e6e2;  
+    color: paleturquoise;  
 }
 
